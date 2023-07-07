@@ -1,0 +1,1 @@
+web: gunicorn deploy_railway.wsgi:application --log-file - --log-level debug
